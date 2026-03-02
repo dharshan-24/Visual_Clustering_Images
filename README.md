@@ -93,13 +93,32 @@ npm start
 **\# 🏗️ Tech Stack**
 
 
+**\*\*Backend:\*\****
 
-\*\*Backend:\*\* Python • FastAPI • PyTorch • Transformers • scikit-learn
+• Python 
 
-\*\*Frontend:\*\* React • CSS3
+• FastAPI 
 
-\*\*AI/ML:\*\* DINOv2 • DBSCAN • Cosine Similarity
+**\*\*Frontend:\*\***
+• React 
 
+• CSS3
+
+**\*\*AI/ML:\*\***
+
+• DINOv2
+
+• K- Means 
+
+• Embediing system
+
+• Clustering Images
+
+**Tools**
+
+• Github
+
+• Vs Code
 
 ---
 
@@ -163,6 +182,61 @@ npm start
 \- GET /cluster/stats/{id} - Get statistics
 
 \- GET /download/cluster/{id} - Download ZIP
+
+---
+
+## 🔄 Project Workflow
+
+The Visual Clustering Dashboard follows a structured AI pipeline from image ingestion to interactive visualization.
+
+### 1️⃣ Image Upload
+Users upload single or batch images through the web interface.  
+Images are stored locally or in cloud storage and registered in the metadata database.
+
+### 2️⃣ Embedding Extraction (DINOv2)
+Each image is processed by a pretrained **DINOv2 vision transformer model** to extract high-dimensional feature embeddings representing visual semantics.
+
+### 3️⃣ Vector Storage
+Extracted embeddings are stored in a vector index (FAISS / in-memory) along with metadata:
+- image_id  
+- filename  
+- upload_date  
+- embedding_vector  
+
+### 4️⃣ Clustering Engine
+Stored embeddings are grouped using unsupervised clustering algorithms:
+- K-Means  
+- Hierarchical clustering  
+
+Each image receives a `cluster_id`.
+
+### 5️⃣ Cluster Analysis
+System computes cluster statistics:
+- number of images per cluster  
+- centroid image  
+- outlier detection  
+
+### 6️⃣ Dashboard Visualization
+Frontend dashboard displays:
+- cluster grid view  
+- sample images per cluster  
+- cluster counts  
+- drill-down view  
+
+Users can:
+- filter clusters  
+- search images  
+- manually tag clusters  
+
+### 7️⃣ Export & Reporting
+Users can export clustering results:
+- CSV summary (cluster_id, tag, image_count)
+- sample images
+- cluster folders (ZIP)
+
+
+
+## 🔁 End-to-End Flow Diagram
 
 ---
 
