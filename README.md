@@ -1,6 +1,6 @@
-<img width="1920" height="1080" alt="Screenshot 2026-03-02 111143" src="https://github.com/user-attachments/assets/df29b4e8-6f8c-49cc-9304-4162baba3a5f" />
 
- # 🧠 Visual Clustering Dashboard
+
+   # 🧠 Visual Clustering Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green.svg)
