@@ -144,6 +144,17 @@ Email: dharshanlak2005@gmail.com
 
 Phone: 9043813443
 
+---
+
+**👨‍💻 Author**
+
+Dharshan Lakshmanan
+AI / ML Developer | Computer Vision Enthusiast
+
+GitHub: https://github.com/dharshan-24
+
+LinkedIn: https://www.linkedin.com/in/dharshanl/
+
 
 
 
