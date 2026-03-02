@@ -1,4 +1,4 @@
-
+<img width="1920" height="1080" alt="Screenshot 2026-03-02 111143" src="https://github.com/user-attachments/assets/df29b4e8-6f8c-49cc-9304-4162baba3a5f" />
 
  # 🧠 Visual Clustering Dashboard
 
@@ -115,6 +115,7 @@ npm start
 
 \- 🗂️ ML training data management
 
+---
 
 **Front End UI Pages**
 
@@ -134,15 +135,22 @@ npm start
 
 <img width="1920" height="1080" alt="Screenshot 2026-03-02 111143" src="https://github.com/user-attachments/assets/b0299b36-2744-4d2e-8493-0ee0c51b8816" />
 
+---
 
 **Backend**
 
-
-
-
-
+<img width="1920" height="1080" alt="Screenshot 2026-03-02 111209" src="https://github.com/user-attachments/assets/ae96d6e4-b1d8-4e0b-bc7e-8453446fafe8" />
 
 ---
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-02 111308" src="https://github.com/user-attachments/assets/3b314616-8c08-4a7e-9776-3c58650ebe3f" />
+
+---
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-02 111407" src="https://github.com/user-attachments/assets/e1522537-9fa4-4b8e-b61e-38b3504b520e" />
+
+---
+
 
 **\# 📖 API Endpoints**
 
