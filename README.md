@@ -46,7 +46,7 @@ uvicorn main:app --reload
 
 pip install -r requirements.txt
 
-
+---
 
 **\# Frontend setup**
 
@@ -55,6 +55,7 @@ cd frontend
 npm install
 npm start
 
+---
 
 
 \# Run (2 terminals)
@@ -65,7 +66,7 @@ cd backend
 
 uvicorn main:app --reload
 
-
+---
 
 **\# Terminal 2:**
 
@@ -75,9 +76,7 @@ npm start
 
 ``````
 
-
-Upload images → AI groups them → Download results!
-
+---
 
 
 Example output:
@@ -94,9 +93,9 @@ Example output:
 
 ``````
 
+---
 
-
-**\## 🏗️ Tech Stack**
+**\# 🏗️ Tech Stack**
 
 
 
@@ -107,8 +106,9 @@ Example output:
 \*\*AI/ML:\*\* DINOv2 • DBSCAN • Cosine Similarity
 
 
+---
 
-**\## 🎯 Use Cases**
+**\# 🎯 Use Cases**
 
 
 
@@ -121,8 +121,9 @@ Example output:
 \- 🗂️ ML training data management
 
 
+---
 
-**\## 📖 API Endpoints**
+**\# 📖 API Endpoints**
 
 
 
@@ -134,8 +135,9 @@ Example output:
 
 \- GET /download/cluster/{id} - Download ZIP
 
+---
 
-**\## 📞 Contact**
+**\# 📞 Contact**
 
 Email: dharshanlak2005@gmail.com
 
