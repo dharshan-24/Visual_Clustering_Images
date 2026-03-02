@@ -116,7 +116,8 @@ npm start
 \- 🗂️ ML training data management
 
 
-![Uploading Screenshot 2026-03-02 111053.png…]()
+<img width="1920" height="1080" alt="Screenshot 2026-03-02 111053" src="https://github.com/user-attachments/assets/bb47fa99-4e64-4485-8d4f-32fae8db9921" />
+
 
 
 ---
