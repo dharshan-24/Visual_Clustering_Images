@@ -51,8 +51,11 @@ pip install -r requirements.txt
 **\# Frontend setup**
 
 venv\\Scripts\\activate
+
 cd frontend
+
 npm install
+
 npm start
 
 ---
@@ -74,14 +77,8 @@ cd frontend
 
 npm start
 
-``````
-
 ---
 
-
-Example output:
-
-``````
 
 ✅ Group 1 (Green)  → 5 Computer    | 92.1% similarity ⭐⭐⭐
 
@@ -90,8 +87,6 @@ Example output:
 ✅ Group 3 (Purple) → 3 Animals     | 85.2% similarity ⭐⭐⭐
 
 ✅ Group 4 (Red)    → 5 Humans      | 76.3% similarity ⭐⭐
-
-``````
 
 ---
 
@@ -119,6 +114,9 @@ Example output:
 \- 🔬 Research image datasets
 
 \- 🗂️ ML training data management
+
+
+![Uploading Screenshot 2026-03-02 111053.png…]()
 
 
 ---
