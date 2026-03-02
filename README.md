@@ -4,18 +4,6 @@
 
 
 
-\[!\[Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
-
-\[!\[React](https://img.shields.io/badge/React-18.0+-61DAFB.svg)](https://reactjs.org/)
-
-\[!\[FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
-
-\[!\[License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-
-
-> Automatically group images by visual similarity using Meta's DINOv2 vision transformer and DBSCAN clustering.
-
 
 
 \## ✨ Features
@@ -50,23 +38,24 @@ cd dinov2-smart-grouping
 
 
 
-\# Backend setup
+**\# Backend setup**
+
+venv\\Scripts\\activate
 
 cd backend
 
-python -m venv venv
-
-venv\\Scripts\\activate
+uvicorn main:app --reload
 
 pip install -r requirements.txt
 
 
 
-\# Frontend setup
+**\# Frontend setup**
 
-cd ..\\frontend
-
+venv\\Scripts\\activate
+cd frontend
 npm install
+npm start
 
 
 
@@ -106,13 +95,13 @@ Example output:
 
 ``````
 
-✅ Group 1 (Green)  → 5 cats    | 92.1% similarity ⭐⭐⭐
+✅ Group 1 (Green)  → 5 Computer    | 92.1% similarity ⭐⭐⭐
 
-✅ Group 2 (Blue)   → 5 dogs    | 88.5% similarity ⭐⭐⭐
+✅ Group 2 (Blue)   → 5 Birds       | 88.5% similarity ⭐⭐⭐
 
-✅ Group 3 (Purple) → 3 cars    | 85.2% similarity ⭐⭐⭐
+✅ Group 3 (Purple) → 3 Animals     | 85.2% similarity ⭐⭐⭐
 
-✅ Group 4 (Red)    → 5 humans  | 76.3% similarity ⭐⭐
+✅ Group 4 (Red)    → 5 Humans      | 76.3% similarity ⭐⭐
 
 ``````
 
@@ -180,25 +169,15 @@ MIT License - see LICENSE file
 
 \## 📞 Contact
 
+Email: dharshanlak2005@gmail.com
+Phone: 9043813443
 
 
-\*\*Created by:\*\* \[Lancy Mariyal J]
 
-\- GitHub: \[@1927lanc](https://github.com/ 1927lanc)
+
+
 
  
- \- Email: 1927lanc@gmail.com
-## 👥 Team Workflow
- 
-
-This update is submitted via pull request to demonstrate collaborative development workflow.
 
 
----
-
-
-
-⭐ Star this repo if it helped you!
-
- 
 
