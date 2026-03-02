@@ -100,6 +100,7 @@ npm start
 • FastAPI 
 
 **\*\*Frontend:\*\***
+
 • React 
 
 • CSS3
