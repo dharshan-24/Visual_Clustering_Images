@@ -1,4 +1,4 @@
- 🚀
+
 
 
 
@@ -23,6 +23,7 @@ This project demonstrates **Computer Vision + Machine Learning + Full-Stack Engi
 
 ---
 
+
 ## ✨ Key Features
 - 📤 Upload image datasets (bulk upload)
 - 🧬 Automatic feature extraction using DINOv2
@@ -34,21 +35,6 @@ This project demonstrates **Computer Vision + Machine Learning + Full-Stack Engi
 - 🐳 Docker-ready deployment
 
 ---
-
-## 🏗️ Architecture
-
-
-
-
-\## 🚀 Quick Start
-
-``````bash
-
-\# Clone repository
-
-git clone https://github.com/yourusername/dinov2-smart-grouping.git
-
-cd dinov2-smart-grouping
 
 
 
