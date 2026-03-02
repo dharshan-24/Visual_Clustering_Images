@@ -76,15 +76,6 @@ npm start
 ``````
 
 
-
-Open http://localhost:3000 🎉
-
-
-
-\## 📸 Demo
-
-
-
 Upload images → AI groups them → Download results!
 
 
@@ -105,7 +96,7 @@ Example output:
 
 
 
-\## 🏗️ Tech Stack
+**\## 🏗️ Tech Stack**
 
 
 
@@ -117,7 +108,7 @@ Example output:
 
 
 
-\## 🎯 Use Cases
+**\## 🎯 Use Cases**
 
 
 
@@ -131,7 +122,7 @@ Example output:
 
 
 
-\## 📖 API Endpoints
+**\## 📖 API Endpoints**
 
 
 
@@ -144,28 +135,7 @@ Example output:
 \- GET /download/cluster/{id} - Download ZIP
 
 
-
-Full docs: http://localhost:8000/docs
-
-
-
-\## 🤝 Contributing
-
-
-
-Contributions welcome! Please read CONTRIBUTING.md
-
-
-
-\## 📄 License
-
-
-
-MIT License - see LICENSE file
-
-
-
-\## 📞 Contact
+**\## 📞 Contact**
 
 Email: dharshanlak2005@gmail.com
 
