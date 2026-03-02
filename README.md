@@ -1,7 +1,5 @@
 
 
-
-
  # 🧠 Visual Clustering Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -61,7 +59,7 @@ npm start
 
 \# Run (2 terminals)
 
-\# Terminal 1:
+**\# Terminal 1:**
 
 cd backend
 
@@ -69,7 +67,7 @@ uvicorn main:app --reload
 
 
 
-\# Terminal 2:
+**\# Terminal 2:**
 
 cd frontend
 
